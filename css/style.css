@@ -136,7 +136,7 @@ body {
     gap: 16px;
     margin-top: 32px;
 }
-.buttons-container-2 {
+.DAO-buttons-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -152,7 +152,7 @@ body {
     gap: 20px;
     flex-wrap: wrap;
 }
-.image-container-2 {
+.three-stars-image {
     display: flex;
     margin-top: -100px;
     padding: 50px 100px;
@@ -236,7 +236,7 @@ body {
     position: relative;
     margin-top: -17%;
 }
-.image-container-3 {
+.Star-image-container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -246,6 +246,7 @@ body {
 .bottom-text {
     display: flex;
     justify-content: center;
+    font-family: Lato, sans-serif;
     flex-direction: column;
     text-align: center;
     font-size: 40px;
@@ -259,7 +260,7 @@ body {
   font-family: Lato, sans-serif;
   font-style: normal;
 }
-.image-container-4 {
+.stars-images-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -267,7 +268,7 @@ body {
     gap: 20px;
     flex-wrap: wrap;
 }
-.text-container-2 {
+.crypto-text-container {
     margin-top: -20px;
     text-align: center;
     font-size: 40px;
@@ -335,7 +336,7 @@ body {
     font-size: 14px;
     font-weight: 500;
 }
-.text-container-3 {
+.help-text-container {
     margin-top: 20px;
     text-align: center;
     font-size: 40px;
@@ -357,7 +358,7 @@ body {
     width: auto;
     height: auto;
 }
-.text-container-4 {
+.support-text-container {
     margin-top: 20px;
     text-align: center;
     font-family: lato, sans-serif;
@@ -676,7 +677,7 @@ body {
 .contact-btn.email {
     background-color: #CEA9FF;
 }
-.footer {
+footer {
     padding: 40px 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(18, 30, 40, 1);
